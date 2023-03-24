@@ -1,2 +1,2 @@
-# web
-Website for Spectra Gallery
+# spectra
+Spectra Gallery
