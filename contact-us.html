@@ -138,28 +138,17 @@
                         <h3 class="text-uppercase">Leave A Quick Message</h3>
                         <p>We want to hear your comments!</p>
                         <div class="m-t-30">
-                             <form action="https://formspree.io/f/xlekyowb" method="POST" class="widget-contact-form">
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label for="name">Name</label>
-                                        <input type="text" aria-required="true" name="widget-contact-form-name" required class="form-control required name" placeholder="Enter your Name">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" aria-required="true" name="widget-contact-form-email" required class="form-control required email" placeholder="Enter your Email">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-12">
-                                        <label for="subject">Your Subject</label>
-                                        <input type="text" name="widget-contact-form-subject" required class="form-control required" placeholder="Subject...">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea type="text" name="widget-contact-form-message" required rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
-                                </div>
-                                <button class="btn btn-primary" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+                            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xlekyowb" method="post">
+                                <fieldset id="fs-frm-inputs">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" name="name" id="full-name" placeholder="Enter your Name" required="">
+                                <label for="email-address">Email Address</label>
+                                <input type="email" name="_replyto" id="email-address" placeholder="Enter your Email" required="">
+                                <label for="message">Message</label>
+                                <textarea rows="5" name="message" id="message" placeholder="Enter your Message" required=""></textarea>
+                                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                </fieldset>
+                                <input type="submit" value="Submit">
                             </form>
                         </div>
                     </div>
@@ -191,9 +180,6 @@
     <script src="js/plugins.js"></script>
     <!--Template functions-->
     <script src="js/functions.js"></script>
-            <!--Google Maps files-->
-        <script type="text/javascript" src="plugins/gmap3/gmap3.min.js"></script>
-        <script type="text/javascript" src="plugins/gmap3/map-styles.js"></script>
    </body>
 
 </html>
