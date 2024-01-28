@@ -1383,7 +1383,7 @@ a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) { color: #3c4043; 
 /* ----------------------------------------------------------------
     SLIDER
 -----------------------------------------------------------------*/
-.inspiro-slider { width: 100%; height: 72vh; overflow: hidden; -webkit-transition: opacity .3s ease; transition: opacity .3s ease; min-height: 100%; width: 100%; }
+.inspiro-slider { width: 100%; height: 72vh; overflow: hidden; min-height: 100%; width: 100%; }
 
 .inspiro-slider.slider-halfscreen { height: 72vh; }
 
