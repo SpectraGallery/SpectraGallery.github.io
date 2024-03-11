@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Zhengyuan (Cooper) Gao" />
+    <meta name="description" content="Art collection from Spectra Gallery">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>Slides | X </title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+
+        <!-- Header -->
+        <div class="body-inner">
+            <!-- Topbar -->
+            <div id="topbar" class="d-none d-xl-block d-lg-block topbar-transparent">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="top-menu">
+                                <li><a href="index.html">Home</a></li>
+                            </ul>
+                        </div>
+                    <!--end: Navigation-->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+
+        
+        <!-- Inspiro Slider -->
+        <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true" >
+            <!-- Slide 1 -->
+            <div class="slide" data-bg-image="">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="row m-l-40">
+                            <div class="col-lg-8" data-animate="fadeIn">
+                                <h2>浅谈神秘主义与艺术的交融</h2>
+                                <h4 >神秘主义：</h4>
+                                <ul>
+                                    <li><h4 class="font-nothing-you-could-do">关乎一种超越“一般自然”的体验，</h4></li>
+                                    <li><h4 class="font-nothing-you-could-do">体验能够引导经历者改变其某些根本的意识状态。</h4></li>
+                                </ul>
+                                <h4 >特点：</h4>
+                                <ul>
+                                    <li><h4 class="font-nothing-you-could-do">主观性，状态的转变</h4></li>
+                                    <li><h4 class="font-nothing-you-could-do">难以用理性的、客观的语言表达</h4></li>
+                                </ul>
+                                <h4>作用范围：</h4>
+                                <ul>
+                                    <li><h4 class="font-nothing-you-could-do">文化、政治、经济、科技、宗教、艺术</h4></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <div data-bg-image="slideImages/1.jpg" style="height: 400px;"></div>
+                                    <div class="m-r-40">
+                                        <img src="slideImages/favicon.png" alt="Logo" class="avatar" data-bs-toggle="tooltip">
+                                        <h4 class="text-light">高政鸢(Cooper)：独立学者，画些画，写点书，建构一下神秘系统</h4>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 1 -->
+            
+            <!-- Slide 2 -->
+            <div class="slide" data-bg-image="slideImages/2.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="m-l-40">
+                            <div class="col-lg-12">
+                                <h2>神秘主义的三个维度: <small>否定神学、隐性知识、科学气质</small></h2>
+                            </div>
+                            <div class=" m-l-60 col-lg-9">
+                                <h2><small>否定神学 (via Negativa)</small></h2>
+                                <ul>
+                                    <li><h4>“否定”：<small><i>去除外在属性以接近神</i></small></h4></li>
+                                    <li><h4>新柏拉图主义：<small><i>所有存在的事物均依赖于无形的、非存在之物——超越性知识的<mark>不可知性</mark></i></small></h4></li>
+                                    <li><h4>不可知性的影响：<small><i>物质世界与任何可以作为其基础的事物之间存在着难以逾越的鸿沟</i></small></h4></li>
+                                    <li><h4>结论：<small><i>理性表达无法充分描述所企图表达的内容——对权威的质疑</i></small></h4></li>
+                                    <li><h4>代表人物和作品：</h4><h4 class="font-nothing-you-could-do">(伪)狄奥尼修斯《酒神语料库》(Corpus Dionysiacum) 包括《神圣名字》，《神秘神学》，《天国等级制度》，《教会等级制度》等。</h4></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 2 -->
+            
+            <!-- Slide 3 -->
+            <div class="slide" data-bg-image="">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="row m-t-10">
+                            <div class="col-lg-3">
+                                <div data-bg-image="slideImages/3.jpg" style="height: 600px;"></div>
+                            </div>
+                            <div class="col-lg-9 m-t-30">
+                                <h3>隐性知识 (Hermeticism or Esotericism)</h3>
+                                <ul>
+                                    <li><h4>隐性知识：</h4><h4 class="font-nothing-you-could-do"> 通过深化自我认知，与世界的根本原则相连接，探寻那些相互映照、紧密相连的真理。</h4></li>
+                                    <li><h4>隐性知识（我的理解）：</h4><h4 class="font-nothing-you-could-do"> 每个领域都有其独特的探索领域，<mark>心灵 (Soul)</mark>在这些领域中寻找相互联系的现象，这背后是所有学科共享的某些理想。</h4></li>
+                                    <li><h4>影响：</h4><h4 class="font-nothing-you-could-do"> 文艺复兴时期的思想家，宣扬了探索隐藏自然法则的世界观。近代的神智学和人智学在文化、宗教、艺术和教育方面的影响。</h4></li>
+                                    <li><h4>人物与作品：</h4><h4 class="font-nothing-you-could-do"> 鲁道夫·斯坦纳 (Rudolf Steiner), The Philosophy of Spiritual Activity, Mysticism at the Dawn of the Modern Age, An Outline of Esoteric Science, How to Know Higher Worlds: A Modern Path of Initiation, The Fourth Dimension: Sacred Geometry, Alchemy, and Mathematics, World Economy: The Formation of a Science of World-Economics, Soul Economy等</h4></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 3 -->
+
+            <!-- Slide 4 -->
+            <div class="slide" data-bg-image="slideImages/4.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="col-lg-12 m-l-60">
+                                <h3>科学气质 (Scientific Pneuma)</h3>
+                                <div class="col-lg-9 m-l-60">
+                                <ul class="timeline">
+                                    <!--Timeline item-->
+                                    <li class="timeline-item">
+                                        <div class="timeline-icon">1</div>
+                                        <h4>早期：科学探索与神秘主义的交织（属于隐性知识的一部分）</h4>
+                                        <h4 class="font-nothing-you-could-do">对数字和物质形式的神秘化，对抽象概念与宇宙真理之间潜在联系的神秘化</h4>
+                                    </li>
+                                    <!--end: Timeline item-->
+                                    <!--Timeline item-->
+                                    <li class="timeline-item">
+                                        <div class="timeline-icon">2</div>
+                                        <h4>现在：引导的科学范式转换（独立于隐性知识）</h4>
+                                        <h4 class="font-nothing-you-could-do">抽象性和象征性为科学表达提供了另一种对真理的探索路径</h4>
+                                    </li>
+                                    <!--end: Timeline item-->
+                                </ul>
+                                <!-- end: Timeline -->
+                                <h4>定义：</h4><h4 class="font-nothing-you-could-do">气质倾向——对概念中任何类型的符号进行<mark>持续更替</mark>的心态</h4>
+                                <h4>人物与作品：</h4><h4 class="font-nothing-you-could-do">约翰·迪伊（John Dee）, Monas Hieroglyphica, General and Rare Memorials pertayning to the Perfect Arte of Navigation, Book of Soyga, Enochian (天使语言系统）</h4>
+                                </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 4 -->
+
+            <!-- Slide 5 -->
+            <div class="slide" data-bg-image="slideImages/5.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="col-lg-12 m-l-60">
+                                <h2>否定神学对艺术的作用</h2>
+                                <h4 class="font-nothing-you-could-do">“镜子”：<mark>防止</mark>主体被封闭的、自给自足的错误理性系统所侵占</h4>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                    <h4>主题：</h4>
+                                    <h4 class="font-nothing-you-could-do">自我否定、变革、毁灭</h4>
+                                    <h4>特点：</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">一种评论和批判现有想象力的工具</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">使用符号来表达和思考无法直接描述的现实</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">对复杂性和多余累赘的怀疑</li>
+                                    </ul>
+                                    <h4>例子：</h4>
+                                    <h4 class="font-nothing-you-could-do">圣像破坏运动，解构主义，极简主义，后现代</h4>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <h4>衍生主题：</h4>
+                                    <h4 class="font-nothing-you-could-do">禅宗的无，道家的无为，儒家的仁</h4>
+                                    <h4 class="font-nothing-you-could-do"><b>无：</b>超越对立、超越有限</h4>
+                                    <h4 class="font-nothing-you-could-do"><b>无为：</b>顺应自然是最有效的行动</h4>
+                                    <h4 class="font-nothing-you-could-do"><b>仁：</b>对泛化环境（人、自然）的尊重和爱护</h4>
+                                    <h4>例子：</h4>
+                                    <h4 class="font-nothing-you-could-do">留白——简化复杂性来达到更高的意境。<br>“否定”创作中过分的执着</h4>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 5 -->
+
+            <!-- Slide 6 -->
+            <div class="slide" data-bg-image="">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="row m-b-30">
+                            <div class="col-lg-3">
+                                <div data-bg-image="slideImages/6.jpg" style="height: 600px;"></div>
+                            </div>
+                            <div class="col-lg-9 m-t-30">
+                                <h2>隐性知识与艺术</h2>
+                                <h4 class="font-nothing-you-could-do">艺术的创造性想象力构成了一种超自然的行为，一种神奇的工具</h4>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h4>抽象艺术与精神世界：</h4>
+                                        <ul>
+                                            <li><h4 class="font-nothing-you-could-do">通过自身作品的自我转化</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">艺术家成为<mark>自己的贤者之石</mark>——既是作品的主题也是客体</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">神智学，人智学，超现实主义：超越对物质世界的直接描绘，转向更加深层次的精神和情感表达</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">思维形态（特定的颜色、形态）：精神和情绪状态的可视化表达</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">探索和表达潜意识</h4></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4>中式的务实主义：实用器皿</h4>
+                                        <ul>
+                                            <li><h4 class="font-nothing-you-could-do">萨满与巫术：借助特定的物品来与超自然的建立联系</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">道器合一，天人合一，炼丹术</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">整体和谐——将理念融入日常生活，通过日用器皿来践行其哲学和宇宙观</h4></li>
+                                            <li><h4 class="font-nothing-you-could-do">器皿的心理投射赋予了对工艺水平的更高要求</h4></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 6 -->
+
+            <!-- Slide 7 -->
+            <div class="slide" data-bg-image="">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="col-lg-12 m-b-30">
+                            <h2>科学气质对艺术的追求和创新的推动</h2>
+                            <h4 class="font-nothing-you-could-do">神秘主义的迭代：被新的科学成果所启发，并尝试将其整合入艺术的叙事中——<mark>再度赋予世界神秘性</mark></h4>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h4>主题：</h4>
+                                    <h4 class="font-nothing-you-could-do">艺术化的科学概念用于彻底转化大众认知</h4>
+                                    <br>
+                                    <h4>新科技对大众带有的象征、想象或神秘主义的启发为艺术家用科学元素表达其思想提供了途径。</h4>
+                                    
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <h4>例子：</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">高维空间、非欧几何和立体主义</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">X-射线与更深层次的现实、不可感知之物</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">电磁场理论与未来主义对空间、色彩的动态渗透</h4></li>
+                                    </ul>
+                                </div>
+                                <br>
+
+                                <div class="m-b-0">
+                                    <br>
+                                    <div data-bg-image="slideImages/7.jpg" style="height: 200px;"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 7 -->
+
+            <!-- Slide 8 -->
+            <div class="slide" data-bg-image="slideImages/8.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="col-lg-12 m-b-20">
+                            <h2>科学气质在中国艺术的表达中尚未独立</h2>
+                            <h4 class="font-nothing-you-could-do">未独立：无法独立运用已有的科学范式来对应难以解释的转变</h4>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>中式的务实主义</h4>
+                                    <h4>科学：</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">观察、实验和理论分析来揭示自然界的基本原则和规律，积累知识并构建理论体系</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">科学气质要有理解自然的冲动，体验“自然中更高的自然”</h4></li>
+                                    </ul>
+                                    <h4>技术：</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">技术实践是某种身体功能性的延伸</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">身体是探索和实现超越性的起点和终点（修仙，长生不老）</h4></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h4>与务实主义的不兼容性</h4>
+                                    <h4>务实主义：</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">探索内在精神和伦理本质而非抽象的自然</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">社会当前的需求和人类即时的欲望，对未来生活方式的设想和期望</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">重视实用知识和对社会有直接贡献的学问</h4></li>
+                                    </ul>
+                                    <h4>兼容问题：</h4>
+                                    <h4 class="font-nothing-you-could-do">神秘主义的“转化”是自然法则的显现还是伦理本质的转化</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h4>补全三元框架</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">需要构建系统“知识”的热情</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">科学气质与群体潜意识</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">有别于否定、简化、象征、感性等特征的复杂视角</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">提供解决实际系统性谜题所需的难以言说的转变范式</h4></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 8 -->
+
+            <!-- Slide 9 -->
+            <div class="slide" data-bg-image="slideImages/9.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="col-lg-12 m-t-30">
+                            <h2>参与中国艺术形式的更迭</h2>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h4>科学气质不能成为中国人精神生活里的例外。它不能仅仅与中式的思想妥协；它还必须在其中寻找自身发展的种子</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h4>真空（虚无）</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">主动、有差别和动态</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">有某种可延展的形状</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">随着时间会呈现膨胀或收缩</h4></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h4>哲学反思中的留白</h4>
+                                    <ul>
+                                        <li><h4 class="font-nothing-you-could-do">刻画隐藏结构</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">结构决定核心所蕴涵的“势”</h4></li>
+                                        <li><h4 class="font-nothing-you-could-do">代表了该态度和选择</h4></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 9 -->
+
+            <!-- Slide 10 -->
+            <div class="slide" data-bg-image="">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        <div class="col-lg-12 m-t-30">
+                            <h2>谢谢</h2>
+                            <div class="row">
+                            <div class="col-lg-4">
+                                <h4 class="font-nothing-you-could-do">需要阅读文章请联系我</h4>
+                                <a href="mailto:cooper-gao@outlook.com?subject=神秘主义文章&body=你好，这是邮件正文。">cooper-gao@outlook.com</a>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4 class="font-nothing-you-could-do">期待更多人参与这个项目</h4>
+                                <h4 class="font-nothing-you-could-do">组织系列的谈话或者报告相关的主题</h4>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4 class="font-nothing-you-could-do">经费申请</h4>
+                                <h4 class="font-nothing-you-could-do">探讨研究成果的应用和转化率</h4>
+                            </div>
+                            </div>
+                            <div class="col-lg-12 m-b-30">
+                                <h4>背景图片:</h4>
+                                <div class="m-l-40">
+                                <h6>2. 佛罗伦萨圣约翰洗礼堂（Baptistry of St. John）内的马赛克天花板 （来源：wikipedia）</h6>
+                                <h6>3. "The Enigma of the Arrival and the Afternoon", Giorgio de Chirico, 1912</h6>
+                                <h6>4. "Sintesi plastica dei movimenti di una donna", Luigi Russolo, 1912</h6>
+                                <h6>5. 圆相 （来源：wikipedia）</h6>
+                                <h6>6. "Men Shall Know Nothing of This", Max Ernst, 1923 </h6>
+                                <h6>7. "Tu m'", Marcel Duchamp, 1918 </h6>
+                                <h6>8. 老奥芬巴赫公墓（Old Offenbach Cemetery）的衔尾蛇 （来源：flickr）</h6>
+                                <h6>9. 《古木双鹰图》【清代】朱耷</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 10 -->
+
+        </div>
+        <!--end: Inspiro Slider -->
+
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+
+</body>
+
+</html>
